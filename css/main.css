@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Poppins:wght@400;600&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Bowlby One SC', cursive; */
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(13px);
+    z-index: 999;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+}
+
+#home {
+    justify-content: center;
+    background-color: rgb(231, 81, 81);
+
+}
+
+#coin {
+    background-color: rgb(55, 212, 55);
+}
+
+#cards {
+    background-color: rgb(0, 140, 255);
+}
+
+#dice {
+    background-color: rgb(153, 0, 94);
+}
+
+#tossbtn {
+    background-color: rgb(55, 212, 55);
+    border: 2px solid black;
+    color: black;
+    transition: all 250ms ease-in-out;
+}
+
+#tossbtn:hover {
+    background-color: black;
+    border: 2px solid black;
+    color: rgb(55, 212, 55);
+
+}
+
+#coin input{
+    margin-top: 10px;
+    padding: 8px 5px;
+    text-align: center;
+    border: 2px solid rgb(55, 212, 55);
+    background-color: black;
+    color: rgb(55, 212, 55);
+}
+
+
+
+.card {
+    font-family: sans-serif;
+    position: relative;
+    width: 105px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .card.spades,
+  .card.clubs {
+    color: black;
+  }
+  .card.hearts,
+  .card.diamonds {
+    color: red;
+  }
+  
+  .card-value-suit {
+    display: inline-block;
+    position: absolute;
+  }
+  .card-value-suit.top {
+    top: 5px;
+    left: 5px;
+  }
+  .card-value-suit.bot {
+    transform: rotate(180deg);
+    bottom: 5px;
+    right: 5px;
+  }
+  .card-suit {
+    font-size: 50px;
+    position: block;
+    height: 10rem;
+}
+
+.cardDiv{
+    height: 10rem;
+  }
+  
+  #cardBtn {
+    background-color: rgb(0, 140, 255);
+    border: 2px solid black;
+    color: black;
+    transition: all 250ms ease-in-out;
+    margin: 10px 0px;
+}
+
+#cardBtn:hover {
+    background-color: black;
+    border: 2px solid black;
+    color: rgb(0, 140, 255);
+
+}
+
+

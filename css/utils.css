@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Poppins:wght@400;600&display=swap');
+
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Bowlby One SC', cursive; */
+
+.header {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.subtxt{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.button{
+    padding: 5px 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
